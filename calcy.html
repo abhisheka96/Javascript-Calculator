@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	
+	<meta name=viewport content="width=device-width, initial-scale=1">
+
+	<title>JS Calculator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="script.js" defer></script>
+</head>
+<body>
+		<div class="calculator-grid">
+			<div class="display">
+				<input type="text" id="result"/>
+			</div>
+				<button id="ac" onclick="clr()">AC</button>
+				<button id="del" onclick="del()">DEL</button>
+				<button value="/" onclick="disp('/')">/</button>
+				<button value="7" onclick="disp('7')">7</button>
+				<button value="8" onclick="disp('8')">8</button>
+				<button value="8" onclick="disp('9')">9</button>
+				<button value="*" onclick="disp('*')">*</button>
+				<button value="4" onclick="disp('4')">4</button>
+				<button value="5" onclick="disp('5')">5</button>
+				<button value="6" onclick="disp('6')">6</button>
+				<button value="-" onclick="disp('-')">-</button>
+				<button value="1" onclick="disp('1')">1</button>
+				<button value="2" onclick="disp('2')">2</button>
+				<button value="3" onclick="disp('3')">3</button>
+				<button value="+" onclick="disp('+')">+</button>
+				<button value="." onclick="disp('.')">.</button>
+				<button value="0" onclick="disp('0')">0</button>
+				<button id="eq" value="=" onclick="solve()">=</button>
+			</div>
+		
+</body>
+</html>
